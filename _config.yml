@@ -68,6 +68,10 @@ defaults:
 exclude:
   - Makefile
   - bin
+  
+# Add redirect line
+plugins:
+  - jekyll-redirect-from
 
 # Turn off built-in syntax highlighting.
 highlighter: false
